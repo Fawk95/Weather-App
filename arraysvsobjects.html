@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App HW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .weather {
+            position: fixed;
+            top: 10px;
+            left: 350px;
+
+        }
+
+        .today {
+            position: fixed;
+            top: 50px;
+            left: 350px
+        }
+
+        .perth {
+            position: fixed;
+            top: 10px;
+            left: 10px
+        }
+
+        .temp {
+            position: fixed;
+            top: 50px;
+            left: 10px
+        }
+
+        .type {
+            position: fixed;
+            top: 130px;
+            left: 10px;
+        }
+
+        .feel {
+            position: fixed;
+            top: 30px;
+            left: 180px;
+        }
+
+        .days {
+            position: relative;
+            top: 100px;
+            left: 10px;
+        }
+
+        .sun {
+            margin: block;
+            width: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="perth">
+        Perth WA
+    </h1>
+
+    <h2 class="temp">
+        29°C|°F
+    </h2>
+
+    <ul class="feel">
+        Precipitation: 1%
+        <br />
+        Humidity: 35%
+        <br />
+        Wind: 11km/h
+    </ul>
+    <h2 class="weather">
+        Weather
+    </h2>
+    <p2 class="today">
+        Saturday 3:00pm
+        <ul>
+            Sunny
+        </ul>
+    </p2>
+    <p3 class="type">
+        Temperature | Precipitation | Wind
+    </p3>
+    <br />
+    <br />
+    <br />
+    <p4>
+        <div class="days">
+            <div class="row">
+                <div class="col">
+                    Sat ☀️
+                    <br />
+                    29° 14°
+                </div>
+                <div class="col">
+                    Sun ☀️
+                    <br />
+                    22° 10°
+                </div>
+                <div class="col">
+                    Mon ☀️
+                    <br />
+                    21° 10°
+                </div>
+                <div class="col">
+                    Tues ☀️
+                    <br />
+                    26° 15°
+                </div>
+                <div class="col">
+                    Wed ☀️
+                    <br />
+                    32° 16°
+                </div>
+                <div class="col">
+                    Thurs ☀️
+                    <br />
+                    26° 12°
+                </div>
+                <div class="col">
+                    Fri ☀️
+                    <br />
+                    22° 10°
+                </div>
+                <div class="col">
+                    Sat ☀️
+                    <br />
+                    23° 11°
+                </div>
+            </div>
+    </p4>
+    <br />
+    <br />
+
+</body>
+
+</html>
+let weather = {
+paris: {
+temp: 19.7,
+humidity: 80
+},
+tokyo: {
+temp: 17.3,
+humidity: 50
+},
+lisbon: {
+temp: 30.2,
+humidity: 20
+},
+"san francisco": {
+temp: 20.9,
+humidity: 100
+},
+oslo: {
+temp: -5,
+humidity: 20
+}
+};
